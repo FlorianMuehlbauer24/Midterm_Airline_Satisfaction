@@ -1,0 +1,14 @@
+Feature,Coefficient
+online_boarding,1.351984
+checkin_service,0.588913
+type_of_travel_Business travel,0.586216
+type_of_travel_Personal Travel,-0.586216
+baggage_handling,0.537015
+customer_type_Loyal Customer,0.516825
+customer_type_disloyal Customer,-0.516825
+leg_room_service,0.482421
+inflight_service,0.469927
+on-board_service,0.441783
+cleanliness,0.422364
+inflight_wifi_service,-0.299591
+seat_comfort,0.234756
