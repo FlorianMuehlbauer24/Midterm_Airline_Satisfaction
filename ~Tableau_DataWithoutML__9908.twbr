@@ -1,0 +1,1382 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data_for_Tableau_withoutML' inline='true' name='federated.0d79pu40t3w08d174bwvv1crcr2d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data_for_Tableau_withoutML' name='textscan.1872ocw0fhjlp711y0e18062it3w'>
+            <connection class='textscan' directory='C:/Users/flori/Documents/GitHub/Midterm_Airline_Satisfaction' filename='Data_for_Tableau_withoutML.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1872ocw0fhjlp711y0e18062it3w' name='Data_for_Tableau_withoutML.csv' table='[Data_for_Tableau_withoutML#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='type_of_travel' ordinal='1' />
+            <column datatype='integer' name='online_boarding' ordinal='2' />
+            <column datatype='integer' name='checkin_service' ordinal='3' />
+            <column datatype='integer' name='on-board_service' ordinal='4' />
+            <column datatype='integer' name='baggage_handling' ordinal='5' />
+            <column datatype='integer' name='inflight_service' ordinal='6' />
+            <column datatype='integer' name='leg_room_service' ordinal='7' />
+            <column datatype='integer' name='cleanliness' ordinal='8' />
+            <column datatype='integer' name='seat_comfort' ordinal='9' />
+            <column datatype='integer' name='inflight_wifi_service' ordinal='10' />
+            <column datatype='integer' name='arrival_delay_in_minutes' ordinal='11' />
+            <column datatype='integer' name='departure_delay_in_minutes' ordinal='12' />
+            <column datatype='string' name='satisfaction' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1872ocw0fhjlp711y0e18062it3w' name='Data_for_Tableau_withoutML.csv' table='[Data_for_Tableau_withoutML#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='type_of_travel' ordinal='1' />
+            <column datatype='integer' name='online_boarding' ordinal='2' />
+            <column datatype='integer' name='checkin_service' ordinal='3' />
+            <column datatype='integer' name='on-board_service' ordinal='4' />
+            <column datatype='integer' name='baggage_handling' ordinal='5' />
+            <column datatype='integer' name='inflight_service' ordinal='6' />
+            <column datatype='integer' name='leg_room_service' ordinal='7' />
+            <column datatype='integer' name='cleanliness' ordinal='8' />
+            <column datatype='integer' name='seat_comfort' ordinal='9' />
+            <column datatype='integer' name='inflight_wifi_service' ordinal='10' />
+            <column datatype='integer' name='arrival_delay_in_minutes' ordinal='11' />
+            <column datatype='integer' name='departure_delay_in_minutes' ordinal='12' />
+            <column datatype='string' name='satisfaction' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type_of_travel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type_of_travel]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>type_of_travel</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>online_boarding</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[online_boarding]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>online_boarding</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>checkin_service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[checkin_service]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>checkin_service</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>on-board_service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[on-board_service]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>on-board_service</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>baggage_handling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[baggage_handling]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>baggage_handling</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>inflight_service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[inflight_service]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>inflight_service</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>leg_room_service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[leg_room_service]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>leg_room_service</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cleanliness</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cleanliness]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>cleanliness</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seat_comfort</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[seat_comfort]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>seat_comfort</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>inflight_wifi_service</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[inflight_wifi_service]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>inflight_wifi_service</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>arrival_delay_in_minutes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[arrival_delay_in_minutes]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>arrival_delay_in_minutes</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>departure_delay_in_minutes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[departure_delay_in_minutes]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>departure_delay_in_minutes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>satisfaction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[satisfaction]</local-name>
+            <parent-name>[Data_for_Tableau_withoutML.csv]</parent-name>
+            <remote-alias>satisfaction</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:arrival_delay_in_minutes:qk]&quot;' value='Arrival' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:baggage_handling:qk]&quot;' value='Baggage Handling' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:checkin_service:qk]&quot;' value='Checkin Service' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:cleanliness:qk]&quot;' value='Cleanliness' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:departure_delay_in_minutes:qk]&quot;' value='Departure' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_service:qk]&quot;' value='Inflight Service' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_wifi_service:qk]&quot;' value='Inflight Wifi Service' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:leg_room_service:qk]&quot;' value='Leg Room Service' />
+          <alias key='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:seat_comfort:qk]&quot;' value='Seat Comfort' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Satisfaction (copy) (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Satisfaction (copy)_697213569531326467]' new-bin='true' />
+      </column>
+      <column aggregation='CountD' caption='Satisfaction (copy)' datatype='string' default-role='measure' default-type='quantitative' name='[Satisfaction (copy)_697213569531326467]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[satisfaction]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Data_for_Tableau_withoutML.csv' datatype='table' name='[__tableau_internal_object_id__].[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Arrival Delay In Minutes' datatype='integer' name='[arrival_delay_in_minutes]' role='measure' type='quantitative' />
+      <column caption='Baggage Handling' datatype='integer' name='[baggage_handling]' role='measure' type='quantitative' />
+      <column caption='Checkin Service' datatype='integer' name='[checkin_service]' role='measure' type='quantitative' />
+      <column caption='Cleanliness' datatype='integer' name='[cleanliness]' role='measure' type='quantitative' />
+      <column caption='Departure Delay In Minutes' datatype='integer' name='[departure_delay_in_minutes]' role='measure' type='quantitative' />
+      <column caption='Inflight Service' datatype='integer' name='[inflight_service]' role='measure' type='quantitative' />
+      <column caption='Inflight Wifi Service' datatype='integer' name='[inflight_wifi_service]' role='measure' type='quantitative' />
+      <column caption='Leg Room Service' datatype='integer' name='[leg_room_service]' role='measure' type='quantitative' />
+      <column caption='On-Board Service' datatype='integer' name='[on-board_service]' role='measure' type='quantitative' />
+      <column caption='Online Boarding' datatype='integer' name='[online_boarding]' role='measure' type='quantitative' />
+      <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+        </aliases>
+      </column>
+      <column caption='Seat Comfort' datatype='integer' name='[seat_comfort]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Type Of Travel' datatype='string' default-role='measure' name='[type_of_travel]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='&quot;Business travel&quot;' value='Business' />
+          <alias key='&quot;Personal Travel&quot;' value='Personal' />
+        </aliases>
+      </column>
+      <column-instance column='[__tableau_internal_object_id__].[Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[age]' derivation='Avg' name='[avg:age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[arrival_delay_in_minutes]' derivation='Avg' name='[avg:arrival_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[baggage_handling]' derivation='Avg' name='[avg:baggage_handling:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[checkin_service]' derivation='Avg' name='[avg:checkin_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cleanliness]' derivation='Avg' name='[avg:cleanliness:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[departure_delay_in_minutes]' derivation='Avg' name='[avg:departure_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[inflight_service]' derivation='Avg' name='[avg:inflight_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[inflight_wifi_service]' derivation='Avg' name='[avg:inflight_wifi_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[leg_room_service]' derivation='Avg' name='[avg:leg_room_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[on-board_service]' derivation='Avg' name='[avg:on-board_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[online_boarding]' derivation='Avg' name='[avg:online_boarding:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[seat_comfort]' derivation='Avg' name='[avg:seat_comfort:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+      <column-instance column='[age]' derivation='Sum' name='[sum:age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[arrival_delay_in_minutes]' derivation='Sum' name='[sum:arrival_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[baggage_handling]' derivation='Sum' name='[sum:baggage_handling:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[checkin_service]' derivation='Sum' name='[sum:checkin_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cleanliness]' derivation='Sum' name='[sum:cleanliness:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[departure_delay_in_minutes]' derivation='Sum' name='[sum:departure_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[inflight_service]' derivation='Sum' name='[sum:inflight_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[inflight_wifi_service]' derivation='Sum' name='[sum:inflight_wifi_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[leg_room_service]' derivation='Sum' name='[sum:leg_room_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[on-board_service]' derivation='Sum' name='[sum:on-board_service:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[online_boarding]' derivation='Sum' name='[sum:online_boarding:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[seat_comfort]' derivation='Sum' name='[sum:seat_comfort:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-hidden-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:satisfaction:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;neutral or dissatisfied&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;satisfied&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:inflight_wifi_service:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:arrival_delay_in_minutes:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:age:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:cleanliness:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:cleanliness:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:checkin_service:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:checkin_service:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[__tableau_internal_object_id__].[cnt:Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[usr:Calculation_697213569479786497:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:arrival_delay_in_minutes:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:on-board_service:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:online_boarding:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:seat_comfort:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:baggage_handling:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:on-board_service:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:online_boarding:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:seat_comfort:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:departure_delay_in_minutes:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_wifi_service:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:age:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:leg_room_service:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:leg_room_service:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:baggage_handling:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:departure_delay_in_minutes:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_service:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:inflight_service:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data_for_Tableau_withoutML.csv' id='Data_for_Tableau_withoutML.csv_3E3172A0EB2A488E910A17977C8C7915'>
+            <properties context=''>
+              <relation connection='textscan.1872ocw0fhjlp711y0e18062it3w' name='Data_for_Tableau_withoutML.csv' table='[Data_for_Tableau_withoutML#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='string' name='type_of_travel' ordinal='1' />
+                  <column datatype='integer' name='online_boarding' ordinal='2' />
+                  <column datatype='integer' name='checkin_service' ordinal='3' />
+                  <column datatype='integer' name='on-board_service' ordinal='4' />
+                  <column datatype='integer' name='baggage_handling' ordinal='5' />
+                  <column datatype='integer' name='inflight_service' ordinal='6' />
+                  <column datatype='integer' name='leg_room_service' ordinal='7' />
+                  <column datatype='integer' name='cleanliness' ordinal='8' />
+                  <column datatype='integer' name='seat_comfort' ordinal='9' />
+                  <column datatype='integer' name='inflight_wifi_service' ordinal='10' />
+                  <column datatype='integer' name='arrival_delay_in_minutes' ordinal='11' />
+                  <column datatype='integer' name='departure_delay_in_minutes' ordinal='12' />
+                  <column datatype='string' name='satisfaction' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Age'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Age of customers split by satisfaction</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_for_Tableau_withoutML' name='federated.0d79pu40t3w08d174bwvv1crcr2d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d79pu40t3w08d174bwvv1crcr2d'>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column-instance column='[age]' derivation='Avg' name='[avg:age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+            <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:age:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:age:qk]' scope='rows' value='Avg. Age of Customers' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:age:qk]</rows>
+        <cols>[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]</cols>
+      </table>
+      <simple-id uuid='{B4638DC0-0BE5-43B6-B1BE-F557AC31D72D}' />
+    </worksheet>
+    <worksheet name='Age_Rotated'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Age of customers&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_for_Tableau_withoutML' name='federated.0d79pu40t3w08d174bwvv1crcr2d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d79pu40t3w08d174bwvv1crcr2d'>
+            <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column-instance column='[age]' derivation='Avg' name='[avg:age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+            <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:age:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:age:qk]' scope='cols' value='Avg. Age of Customers' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='61' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='188' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]</rows>
+        <cols>[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:age:qk]</cols>
+      </table>
+      <simple-id uuid='{2FD8988A-0CDB-4453-8E24-D368A8B815B7}' />
+    </worksheet>
+    <worksheet name='Customer Ratings'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Customer Ratings per category split by satisfaction level</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_for_Tableau_withoutML' name='federated.0d79pu40t3w08d174bwvv1crcr2d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d79pu40t3w08d174bwvv1crcr2d'>
+            <column-instance column='[baggage_handling]' derivation='Avg' name='[avg:baggage_handling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[checkin_service]' derivation='Avg' name='[avg:checkin_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cleanliness]' derivation='Avg' name='[avg:cleanliness:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[inflight_service]' derivation='Avg' name='[avg:inflight_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[inflight_wifi_service]' derivation='Avg' name='[avg:inflight_wifi_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[leg_room_service]' derivation='Avg' name='[avg:leg_room_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[seat_comfort]' derivation='Avg' name='[avg:seat_comfort:qk]' pivot='key' type='quantitative' />
+            <column caption='Baggage Handling' datatype='integer' name='[baggage_handling]' role='measure' type='quantitative' />
+            <column caption='Checkin Service' datatype='integer' name='[checkin_service]' role='measure' type='quantitative' />
+            <column caption='Cleanliness' datatype='integer' name='[cleanliness]' role='measure' type='quantitative' />
+            <column caption='Inflight Service' datatype='integer' name='[inflight_service]' role='measure' type='quantitative' />
+            <column caption='Inflight Wifi Service' datatype='integer' name='[inflight_wifi_service]' role='measure' type='quantitative' />
+            <column caption='Leg Room Service' datatype='integer' name='[leg_room_service]' role='measure' type='quantitative' />
+            <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+            <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+              </aliases>
+            </column>
+            <column caption='Seat Comfort' datatype='integer' name='[seat_comfort]' role='measure' type='quantitative' />
+            <column-instance column='[inflight_wifi_service]' derivation='Sum' name='[sum:inflight_wifi_service:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:baggage_handling:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:checkin_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:cleanliness:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_wifi_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:leg_room_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:seat_comfort:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:baggage_handling:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:checkin_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:cleanliness:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_wifi_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:inflight_wifi_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:leg_room_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:seat_comfort:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%all%</bucket>
+              <bucket>&quot;neutral or dissatisfied&quot;</bucket>
+              <bucket>&quot;satisfied&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]' value='-90' />
+            <format attr='text-orientation' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' num-steps='5' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' />
+              <text column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='normal' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]</rows>
+        <cols>([federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names] / [federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk])</cols>
+      </table>
+      <simple-id uuid='{6530D508-F9B4-4C6F-87F7-A2A40CEDBF5B}' />
+    </worksheet>
+    <worksheet name='Customer Ratings_Rotated'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Customer Ratings per category split by satisfaction level</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_for_Tableau_withoutML' name='federated.0d79pu40t3w08d174bwvv1crcr2d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d79pu40t3w08d174bwvv1crcr2d'>
+            <column-instance column='[baggage_handling]' derivation='Avg' name='[avg:baggage_handling:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[checkin_service]' derivation='Avg' name='[avg:checkin_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cleanliness]' derivation='Avg' name='[avg:cleanliness:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[inflight_service]' derivation='Avg' name='[avg:inflight_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[inflight_wifi_service]' derivation='Avg' name='[avg:inflight_wifi_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[leg_room_service]' derivation='Avg' name='[avg:leg_room_service:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[seat_comfort]' derivation='Avg' name='[avg:seat_comfort:qk]' pivot='key' type='quantitative' />
+            <column caption='Baggage Handling' datatype='integer' name='[baggage_handling]' role='measure' type='quantitative' />
+            <column caption='Checkin Service' datatype='integer' name='[checkin_service]' role='measure' type='quantitative' />
+            <column caption='Cleanliness' datatype='integer' name='[cleanliness]' role='measure' type='quantitative' />
+            <column caption='Inflight Service' datatype='integer' name='[inflight_service]' role='measure' type='quantitative' />
+            <column caption='Inflight Wifi Service' datatype='integer' name='[inflight_wifi_service]' role='measure' type='quantitative' />
+            <column caption='Leg Room Service' datatype='integer' name='[leg_room_service]' role='measure' type='quantitative' />
+            <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+            <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+              </aliases>
+            </column>
+            <column caption='Seat Comfort' datatype='integer' name='[seat_comfort]' role='measure' type='quantitative' />
+            <column-instance column='[inflight_wifi_service]' derivation='Sum' name='[sum:inflight_wifi_service:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:baggage_handling:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:checkin_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:cleanliness:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_wifi_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:leg_room_service:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:seat_comfort:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:baggage_handling:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:checkin_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:cleanliness:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:inflight_wifi_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[sum:inflight_wifi_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:leg_room_service:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:seat_comfort:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' value='n#,##0.00;-#,##0.00' />
+            <format attr='height' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='27' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' num-steps='5' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' />
+              <text column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='normal' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names] / [federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk])</rows>
+        <cols>[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{03C7193A-4B88-484F-BBA8-B7C19BFB8D1B}' />
+    </worksheet>
+    <worksheet name='Delay'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_for_Tableau_withoutML' name='federated.0d79pu40t3w08d174bwvv1crcr2d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d79pu40t3w08d174bwvv1crcr2d'>
+            <column caption='Arrival Delay In Minutes' datatype='integer' name='[arrival_delay_in_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[arrival_delay_in_minutes]' derivation='Avg' name='[avg:arrival_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[departure_delay_in_minutes]' derivation='Avg' name='[avg:departure_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Departure Delay In Minutes' datatype='integer' name='[departure_delay_in_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+            <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:arrival_delay_in_minutes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:departure_delay_in_minutes:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' scope='rows' value='Delay in Min' />
+            <format attr='width' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' value='68' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='114' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]' value='71' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]' value='0' />
+            <format attr='display' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]</rows>
+        <cols>([federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names] / [federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk])</cols>
+      </table>
+      <simple-id uuid='{E7385232-C49D-4398-BA1F-7F3BDBF9E466}' />
+    </worksheet>
+    <worksheet name='Delay_rotated'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Delay&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_for_Tableau_withoutML' name='federated.0d79pu40t3w08d174bwvv1crcr2d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d79pu40t3w08d174bwvv1crcr2d'>
+            <column caption='Arrival Delay In Minutes' datatype='integer' name='[arrival_delay_in_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[arrival_delay_in_minutes]' derivation='Avg' name='[avg:arrival_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[departure_delay_in_minutes]' derivation='Avg' name='[avg:departure_delay_in_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Departure Delay In Minutes' datatype='integer' name='[departure_delay_in_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+            <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:arrival_delay_in_minutes:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0d79pu40t3w08d174bwvv1crcr2d].[avg:departure_delay_in_minutes:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]' scope='cols' value='Delay in Min' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' value='60' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names] / [federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk])</rows>
+        <cols>[federated.0d79pu40t3w08d174bwvv1crcr2d].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{58DA41FC-6C0B-40BA-8206-C5A57EE64A22}' />
+    </worksheet>
+    <worksheet name='Type of Travel'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_for_Tableau_withoutML' name='federated.0d79pu40t3w08d174bwvv1crcr2d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0d79pu40t3w08d174bwvv1crcr2d'>
+            <column-instance column='[type_of_travel]' derivation='Count' name='[cnt:type_of_travel:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[satisfaction]' derivation='None' name='[none:satisfaction:nk]' pivot='key' type='nominal' />
+            <column-instance column='[type_of_travel]' derivation='None' name='[none:type_of_travel:nk]' pivot='key' type='nominal' />
+            <column caption='Satisfaction' datatype='string' name='[satisfaction]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;neutral or dissatisfied&quot;' value='dissatisfied' />
+              </aliases>
+            </column>
+            <column aggregation='CountD' caption='Type Of Travel' datatype='string' default-role='measure' name='[type_of_travel]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='&quot;Business travel&quot;' value='Business' />
+                <alias key='&quot;Personal Travel&quot;' value='Personal' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0d79pu40t3w08d174bwvv1crcr2d].[cnt:type_of_travel:qk]' scope='rows' value='Number of Customers' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0d79pu40t3w08d174bwvv1crcr2d].[cnt:type_of_travel:qk]</rows>
+        <cols>([federated.0d79pu40t3w08d174bwvv1crcr2d].[none:type_of_travel:nk] / [federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk])</cols>
+      </table>
+      <simple-id uuid='{4FD99392-5933-4DFA-AB1C-44892ED93AF4}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone fixed-size='798' h='98000' id='5' is-fixed='true' type-v2='layout-basic' w='79800' x='800' y='1000' />
+            <zone fixed-size='146' h='98000' id='12' is-fixed='true' name='Delay' w='15400' x='80600' y='1000'>
+              <layout-cache type-h='fixed' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='98000' id='6' param='vert' type-v2='layout-flow' w='3200' x='96000' y='1000' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='95500' id='3' name='Customer Ratings' w='54800' x='3300' y='4125' />
+        <zone h='9500' id='8' name='Customer Ratings' pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type-v2='color' w='14000' x='60800' y='87625' />
+        <zone fixed-size='388' h='75625' id='11' is-fixed='true' name='Age' w='19800' x='60000' y='9375'>
+          <layout-cache cell-count-w='2' minheight='400' non-cell-size-w='67' type-h='scalable' type-w='cell' />
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='12' is-fixed='true' name='Delay' w='15400' x='80600' y='1000'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='95500' id='3' is-fixed='true' name='Customer Ratings' w='54800' x='3300' y='4125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9500' id='8' name='Customer Ratings' pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type-v2='color' w='14000' x='60800' y='87625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='75625' id='11' is-fixed='true' name='Age' w='19800' x='60000' y='9375'>
+                  <layout-cache cell-count-w='2' minheight='400' non-cell-size-w='67' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E86DB373-99AD-44C0-A70F-0443976AD5EA}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='40375' id='11' name='Age_Rotated' w='44700' x='1800' y='55875' />
+        <zone h='58500' id='3' name='Customer Ratings_Rotated' w='94300' x='3300' y='4125' />
+        <zone h='9500' id='8' name='Customer Ratings_Rotated' pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type-v2='color' w='14000' x='31700' y='90875' />
+        <zone h='41500' id='12' name='Delay' w='52400' x='45800' y='58375' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='58500' id='3' is-fixed='true' name='Customer Ratings_Rotated' w='94300' x='3300' y='4125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9500' id='8' name='Customer Ratings_Rotated' pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type-v2='color' w='14000' x='31700' y='90875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40375' id='11' is-fixed='true' name='Age_Rotated' w='44700' x='1800' y='55875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41500' id='12' is-fixed='true' name='Delay' w='52400' x='45800' y='58375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{940826FB-70C8-4626-B837-14F8C7320186}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Age_Rotated' />
+        <viewpoint name='Customer Ratings_Rotated' />
+        <viewpoint name='Delay'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{C3358B08-4804-4B06-93E5-CA19E048FBF7}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Customer Ratings'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Delay'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{E4A01F56-0A06-434A-8A2A-B9A44A93E174}' />
+    </window>
+    <window class='worksheet' name='Customer Ratings'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]' type='highlighter' />
+            <card param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='highlighter' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{98D4C888-1E49-486E-BFF4-6D228DFCB560}' />
+    </window>
+    <window class='worksheet' name='Customer Ratings_Rotated'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[:Measure Names]' type='highlighter' />
+            <card param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='highlighter' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A9706AC8-DD3F-44E5-B612-AD9B55054178}' />
+    </window>
+    <window class='worksheet' name='Age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5A5A7CC0-230F-42C9-93A8-D6EDF5D6E10E}' />
+    </window>
+    <window class='worksheet' name='Age_Rotated'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{13BC82BC-2D60-4356-AC36-E49D5BAB1E68}' />
+    </window>
+    <window class='worksheet' name='Delay'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{526259FB-61AB-4F2E-95DE-6D377B5BEDE8}' />
+    </window>
+    <window class='worksheet' name='Delay_rotated'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D8C72F4F-F44B-4366-B867-ECFF623A7C42}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Type of Travel'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0d79pu40t3w08d174bwvv1crcr2d].[none:satisfaction:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{536CECB1-0057-4800-964A-C41588D051E2}' />
+    </window>
+  </windows>
+</workbook>
