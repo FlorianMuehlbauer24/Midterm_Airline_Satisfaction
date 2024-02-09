@@ -22,8 +22,17 @@ Day 1 - EDA
 
 Day 2 - Model
 
-Day 3 Analysis of results 
+Day 3 Analysis of Results 
 
 Day 4 - Analysis of result continued
 Presentation
+
+Deliverables:
+- 1 x presentation deck as PDF
+- 2 x code files: Model 1 (with all variables) and model 2 (only a selection)
+- 1 x main cleaned dataset
+- 2 x tableau file (1x business analysis and 1x feature importance from ML)
+- 1 x csv. - data for business analysis
+- 1 x csv. - logistic regression results for tableau visuals 
+
 
